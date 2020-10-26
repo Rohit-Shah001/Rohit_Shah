@@ -6,8 +6,8 @@ def findMaxProfit(numOfPredictedDay, predictedSharePrices):
     for i in predictedSharePrices:
         ans = numOfPredictedDay * i
         l.append(ans)
-    x = max(l)
-    return x
+    y = max(l)
+    return y
 
 def main():
     line = input().split()
